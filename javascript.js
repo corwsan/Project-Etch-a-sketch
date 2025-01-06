@@ -44,14 +44,3 @@ function newGrid () {
 }
 
 newGridButton.addEventListener ("click" , newGrid);
-
-
-
-/*container.addEventListener("mouseover", (event) => {
-    if (event.target.classList.contains("square")) {
-        event.target.classList.add("red");
-    }
-})*/
-
-
-
