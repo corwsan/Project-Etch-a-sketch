@@ -18,3 +18,7 @@ body {
     display: flex;
     border: 1px solid black;
 }
+
+button {
+    margin: 15px
+}

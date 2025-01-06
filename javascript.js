@@ -34,12 +34,14 @@ const createGrid = (size) => {
 
 createGrid (16);
 
-
-/*const squares = prompt ("What size grid would you like (1-100)");   
-} else alert ("Please enter a number between 0 and 100!"); */
-
-
-
+function newGrid () {
+    const newSize = prompt ("What size grid would you like (1-100)");
+    if (newSize <= 0 || newSize > 100) {
+        alert ("Please enter a number between 0 and 100!");
+    } else {
+        createGrid(newSize);
+    }
+}
 
 newGridButton.addEventListener ("click" , newGrid);
 
