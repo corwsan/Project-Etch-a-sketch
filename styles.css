@@ -1,15 +1,21 @@
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 400px;
+    width: 960px;
+    height: 960px;
     gap: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 #container > div {
     display: flex;
     flex-shrink: 0;
-    height: 98px;
-    width: 98px;
+    height: 238px;
+    width: 238px;
     border: 1px solid black;
+}
+
+#container > div.red {
+    background-color: red;
 }
