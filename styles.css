@@ -18,7 +18,3 @@ body {
     display: flex;
     border: 1px solid black;
 }
-
-#container > div.red {
-    background-color: red;
-}
